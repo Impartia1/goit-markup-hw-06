@@ -474,6 +474,10 @@ body {
     margin-left: 80px;
     margin-right: 0;
 }
+.footer-form {
+    position: absolute;
+    display: flex;
+}
 .footer-form-text {
     font-weight: 500;
     font-size: 16px;
@@ -482,10 +486,7 @@ body {
     color: #FFFFFF;
     margin-bottom: 16px;
 }
-.footer-form-and-button-wrapper {
-    position: absolute;
-    display: flex;
-}
+
 
 
 .footer-form-input {
@@ -678,7 +679,7 @@ body {
     position: absolute;
     top: 50%;
     left: 50%;
-
+    padding: 72px 24px 24px;
     min-height: 584px;
     min-width: 408px;
     background: #FCFCFC;
@@ -725,10 +726,10 @@ body {
     text-align: center;
     letter-spacing: 0.02em;
     color: #2E2F42;
-    margin-top: 72px;
+    
 }
 .form {
-    width: 360px;
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
     margin-top: 16px;
@@ -836,10 +837,14 @@ body {
     background-position: center;
     border-color: transparent;
 }
+.modal-checkbox-link {
+    color: var(--primary-brand);
+    text-decoration: underline var(--primary-brand);
+}
 .modal-form-button {
     display: flex;
     margin-top: 24px;
-    margin-bottom: 24px;
+    
     margin-left: auto;
     margin-right: auto;
     padding: 16px 64px;
